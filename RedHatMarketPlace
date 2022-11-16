@@ -1,0 +1,19 @@
+Source code : day 1:
+=====================
+marketplaceconfig_controller
+	struct MarketplaceConfigReconciler
+	   methods defined:
+					Reconcile
+					handleMeterDefinitionCatalogServerConfigs
+					createCatalogSource
+					unregister
+					InjectCommandRunner
+					InjectOperatorConfig
+					SetupWithManager
+					Inject
+					initializeMarketplaceConfigSpec
+					createOrUpdateMeterBase
+					createOrUpdateRazeeRazeeDeployment
+					findRegistrationStatus
+					updateMarketplaceConfigStatusStarting
+					updateMarketplaceConfigStatusFinished
