@@ -17,3 +17,12 @@ marketplaceconfig_controller
 					findRegistrationStatus
 					updateMarketplaceConfigStatusStarting
 					updateMarketplaceConfigStatusFinished
+
+
+/v2/main.go as starting point?			
+		api marketplace: C:\Red_hat_MP\sourceCode\redhat-marketplace-operator\v2\apis\marketplace\v1alpha1
+		>>>  marketplaceconfig_types.go that defines all types.
+			struct 
+				MarketplaceConfigSpec  // defines the desired state of MarketplaceConfig
+				MarketplaceConfigStatus // defines the observed state of MarketplaceConfig
+				MarketplaceConfig //  configuration manager for our Red Hat Marketplace controllers(*****)
