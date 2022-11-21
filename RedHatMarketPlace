@@ -1,3 +1,8 @@
+
+API:
+https://pkg.go.dev/github.com/redhat-marketplace/redhat-marketplace-operator/v2@v2.0.0-20221019193447-954da18a9fd1
+
+
 Source code : day 1:
 =====================
 marketplaceconfig_controller
